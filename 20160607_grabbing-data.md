@@ -2,6 +2,12 @@
 
 *June 7, 2016*
 
+![Alice-peaking](http://www.alice-in-wonderland.net/wp-content/uploads/1book2.jpg)
+
+> "It's no use going back to yesterday, because I was a different person then."
+
+> *Alice*
+
 **To pull off MiSeq data:**
 
 `ssh <username>@gold`
