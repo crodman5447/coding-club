@@ -25,3 +25,25 @@
 `ssh <username>@gold`
 
 `cd /ahg/regevdata/projects`
+
+**To connect to dropbox:**
+
+You first need to mount the file server "dropbox/dropbox":
+
+1. Click on the desktop
+2. Click and hold `command` + `K`
+3. In the server address field, enter `smb://dropbox/dropbox`
+4. Enter in your password
+
+You can think of mounting a file server as analagous to inserting (aka. "mounting") a USB into your computer.
+
+In Terminal:
+
+1. Ensure that you are **not** connected through `ssh`
+2. `cd /Volumes/dropbox`
+
+*Notes*
+
+bash is an interpreter and translates your commands into computer actions (ie. lets you "talk" to your computer)
+
+ssh is also bash, you can think of this as a tunnel to remotely connect to a different computer via the internet.
