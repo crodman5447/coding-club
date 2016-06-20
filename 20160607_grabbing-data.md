@@ -53,3 +53,9 @@ In Terminal:
 bash is an interpreter and translates your commands into computer actions (ie. lets you "talk" to your computer)
 
 ssh is also bash, you can think of this as a tunnel to remotely connect to a different computer via the internet.
+
+**To look at a column within a text file, count the # of unique names, and sort from highest to lowest**
+
+awk -F"\t" '{print $1}'  <myfile>.txt | uniq -c  | sort -k1 -n | head
+
+awk -F"\t" '{print $1}'  <myfile>.txt | uniq -c  | sort -k1 -n | tail
