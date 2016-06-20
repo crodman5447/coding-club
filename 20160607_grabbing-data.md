@@ -56,6 +56,6 @@ ssh is also bash, you can think of this as a tunnel to remotely connect to a dif
 
 **To look at a column within a text file, count the # of unique names, and sort from highest to lowest**
 
-awk -F"\t" '{print $1}'  <myfile>.txt | uniq -c  | sort -k1 -n | head
+`awk -F"\t" '{print $1}'  <myfile>.txt | uniq -c  | sort -k1 -n | head`
 
-awk -F"\t" '{print $1}'  <myfile>.txt | uniq -c  | sort -k1 -n | tail
+`awk -F"\t" '{print $1}'  <myfile>.txt | uniq -c  | sort -k1 -n | tail`
